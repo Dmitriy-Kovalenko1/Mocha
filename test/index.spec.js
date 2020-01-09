@@ -11,6 +11,7 @@ describe('function sum', () => {
 
     it('should function sum not equal 0', () => {
         assert.notEqual(sum(2,4), 0);
+        expect(sum(2,4)).not.equal(5)
     })
 })
 
