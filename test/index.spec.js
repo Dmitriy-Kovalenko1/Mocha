@@ -4,19 +4,19 @@ const {expect} = require('chai');
 const {sum, mult} = require('../index.js');
 
 describe('function sum', () => {
-    it('should function sum equal 6', () => {
-        assert.equal(sum(2,4), 6);
-        expect(sum(2,4)).equal(6);
-    })
+  it('should function sum equal 6', () => {
+    assert.equal(sum(2,4), 6);
+    expect(sum(2,4)).equal(6);
+  });
 
-    it('should function sum not equal 0', () => {
-        assert.notEqual(sum(2,4), 0);
-        expect(sum(2,4)).not.equal(5)
-    })
-})
+  it('should function sum not equal 0', () => {
+    assert.notEqual(sum(2,4), 0);
+    expect(sum(2,4)).not.equal(5);
+  });
+});
 
 
 it('should mult works correct', () => {
-    assert.equal(mult(2,4), 8);
-})
+  assert.equal(mult(2,4), 8);
+});
 
